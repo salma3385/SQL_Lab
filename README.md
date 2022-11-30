@@ -38,7 +38,7 @@ SELECT * FROM divisions WHERE code = 'Bundesliga';
 5) Find the unique names of the teams which include the word "City" in their name (as entered in the database)
 
 ```sql
-SELECT * FROM matches WHERE hometeam LIKE '%City%' OR awayteam LIKE '%City%';
+SELECT * FROM matches WHERE hometeam LIKE '%City%';
 
 ```
 
