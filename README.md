@@ -75,7 +75,7 @@ SELECT ftr, FROM matches GROUP BY  division_code = 'N1' AND season = 2010 BETWEE
 
 ```sql
 
-SELECT * FROM matches ORDER BY ftr ASC;
+SELECT * FROM matches ORDER BY (fthg+ftag) ASC;
 
 ```
 
