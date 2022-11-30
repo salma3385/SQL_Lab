@@ -14,8 +14,7 @@ SELECT * FROM matches WHERE season >= 2017;
 2) Find all the matches featuring Barcelona.
 
 ```sql
-SELECT * FROM matches WHERE hometeam = 'Barcelona';
-SELECT * FROM matches WHERE awayteam = 'Barcelona';
+SELECT * FROM matches WHERE hometeam = 'Barcelona' OR awaysteam = 'Barcelona'
 
 
 ```
